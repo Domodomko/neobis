@@ -1,0 +1,50 @@
+{
+  "game":"Minecraft",
+  "release date":2009,
+  "mobs":
+  [
+  {
+   "name":"cat",
+    "hostility level":"passive",
+    "health":10,
+    "attack method":"will never attack you",
+    "drops":"0-2 strings",
+    "experience points":3
+  
+  },
+  {
+    "name":"Slime",
+    "hostility level":"hostile",
+    "health":16,
+    "attack method":"hops towards you and tries to bump into you",
+   "drops":"0-2 slimeballs",
+   "experience points":4
+  
+  },
+  {
+   "name":"Creeper",
+   "hostility level":"hostile",
+   "health":20,
+    "attack method":"moves toward you, ignites its TNT and explodes",
+   "drops":["0-2 gunpowder","music disc"],
+    "experience points":5
+  
+  },
+  {
+   "name":"Wolf",
+   "hostility level":"neutral",
+    "health":8,
+   "attack method":"jumps at you and tries to bite you",
+   "drops":"none",
+    "experience points":3
+  },
+  {
+    "name":"Ender Dragon",
+    "hostility level":"hostile",
+   "health":200,
+    "attack method":["dives towards you and tries to hit you","performs a Dragon's Breath attack"],
+   "drops":"dragon egg",
+   "experience points":12000
+  }
+  ]
+}
